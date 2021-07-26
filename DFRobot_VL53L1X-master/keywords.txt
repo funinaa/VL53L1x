@@ -1,0 +1,80 @@
+#######################################
+# Syntax Coloring DFRobot_VL53L2X
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+DFRobot_VL53L1X	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################	
+
+begin	KEYWORD2
+setI2CAddress	KEYWORD2
+getI2CAddress	KEYWORD2
+clearInterrupt	KEYWORD2
+setInterruptPolarityHigh	KEYWORD2
+setInterruptPolarityLow	KEYWORD2
+setInterruptPolarity	KEYWORD2
+getInterruptPolarity	KEYWORD2
+startRanging	KEYWORD2
+stopRanging	KEYWORD2
+checkForDataReady	KEYWORD2
+setTimingBudgetInMs	KEYWORD2
+getTimingBudgetInMs	KEYWORD2
+setDistanceModeLong	KEYWORD2
+setDistanceModeShort	KEYWORD2
+setDistanceMode	KEYWORD2
+getDistanceMode	KEYWORD2
+setInterMeasurementInMs	KEYWORD2
+getInterMeasurementInMs	KEYWORD2
+setXTalk	KEYWORD2
+getDistance	KEYWORD2
+getSignalPerSpad	KEYWORD2
+getAmbientPerSpad	KEYWORD2
+getSignalRate	KEYWORD2
+getAmbientCount	KEYWORD2
+getSignalCount	KEYWORD2
+getSpadNb	KEYWORD2
+getAmbientRate	KEYWORD2
+getRangeStatus	KEYWORD2
+setOffset	KEYWORD2
+getOffset	KEYWORD2
+getXTalk	KEYWORD2
+setDistanceThreshold	KEYWORD2
+getDistanceThresholdWindow	KEYWORD2
+getDistanceThresholdLow	KEYWORD2
+getDistanceThresholdHigh	KEYWORD2
+getDistance	KEYWORD2
+setROI	KEYWORD2
+getROIX	KEYWORD2
+getROIY	KEYWORD2
+setSignalThreshold	KEYWORD2
+getSignalThreshold	KEYWORD2
+setSigmaThreshold	KEYWORD2
+getSigmaThreshold	KEYWORD2
+startTemperatureUpdate	KEYWORD2
+calibrateOffset	KEYWORD2
+calibrateXTalk	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+eVL53L1X_ok	LITERAL1
+eVL53L1X_InitError	LITERAL1
+eVL53L1X_WriteRegError	LITERAL1
+eVL53L1X_ReadRegError	LITERAL1
+eVL53L1X_Below	LITERAL1
+eVL53L1X_Above	LITERAL1
+eVL53L1X_Out	LITERAL1
+eVL53L1X_In	LITERAL1
+eBudget_20ms	LITERAL1
+eBudget_33ms	LITERAL1
+eBudget_50ms	LITERAL1
+eBudget_100ms	LITERAL1
+eBudget_200ms	LITERAL1
+eBudget_500ms	LITERAL1
+#######################################
+
+
